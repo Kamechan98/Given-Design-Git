@@ -94,3 +94,41 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.teammembers{
+  justify-content: center;
+  align-items: center;
+}
+
+.teammember>img{
+  max-width: 200px;
+  border-radius: ;
+  box-shadow: 0px 0px 12px 2px rgb(239, 2, 2);
+}
+
+.teammember>article{
+  background-color: lightgray;
+  max-width: 300px;
+  padding: 15px;
+  margin: 10px;
+  font-size: 14px;
+  text-align: left;
+}
+
+@media screen and (min-width: 768px) {
+  .teampage>h2{
+    font-size: 40px;
+  }
+
+  .teammember>p {
+    font-size: 24px;
+  }
+
+  .teammember>article{
+    font-size: 20px;
+  }
+
+  .teammembers {
+    grid-template-columns: auto;
+  }
+}
